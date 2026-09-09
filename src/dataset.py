@@ -72,3 +72,5 @@ def prepare_train_val(csv_path='data/sensors.csv', images_dir='data/images',
     train_ds = create_tf_dataset_from_df(train_df, images_dir, label_map, sensor_mean, sensor_std, batch_size, shuffle=True)
     val_ds = create_tf_dataset_from_df(val_df, images_dir, label_map, sensor_mean, sensor_std, batch_size, shuffle=False)
     return train_ds, val_ds, label_map, sensor_mean, sensor_std
+
+om murugan manraj
